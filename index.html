@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Exhibit</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-slate-100 min-h-screen flex flex-col">
+
+    <header class="navbar">
+        <div class="logo">
+            Logo
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header> 
+
+    <main class="main-container grid grid-cols-1 md:grid-cols-3 gap-6 p-6 flex-1">
+        <article class="card bg-white rounded-xl p-14 shadow-md">
+            <img src="/images/Clock Tower.jpg" alt="Clock Tower" class="rounded-lg mb-4" />
+            <h2 class="subheading text-center font-semibold text-xl mb-2">Clock Tower</h2>
+            <p class="description text-sm text-slate-600">A view of the Clock Tower, capturing the history of the architecture.</p>
+        </article>
+
+        <article class="card bg-white rounded-xl p-14 shadow-md">
+            <img src="/images/Cricket.jpg" alt="Cricket" class="rounded-lg mb-4" />
+            <h2 class="subheading text-center font-semibold text-xl mb-2">Cricket</h2>
+            <p class="description text-sm text-slate-600">A view of the match stretch across the landscape, giving a peaceful escape into nature.</p>
+        </article>
+
+        <article class="card bg-white rounded-xl p-14 shadow-md">
+            <img src="/images/Hostel.jpg" alt="Hostel" class="rounded-lg mb-4" />
+            <h2 class="subheading text-center font-semibold text-xl mb-2">Hostel</h2>
+            <p class="description text-sm text-slate-600">A view of the Hostel builiding where students stay.</p>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>@ 2026 Photography Exhibit | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
